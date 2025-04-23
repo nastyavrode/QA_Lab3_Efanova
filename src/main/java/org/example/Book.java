@@ -5,6 +5,8 @@ package org.example;
  * @brief Класс, представляющий книгу, наследуется от Item.
  *
  * Содержит дополнительное поле жанра.
+ *
+ * \image html book.png
  */
 public class Book extends Item {
     /// Жанр книги (например, фантастика, роман)

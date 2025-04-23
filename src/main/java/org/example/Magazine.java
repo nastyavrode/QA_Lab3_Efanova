@@ -5,6 +5,8 @@ package org.example;
  * @brief Класс, представляющий журнал, наследуется от Item.
  *
  * Содержит дополнительное поле номера выпуска.
+ *
+ * \image html magazine.png
  */
 public class Magazine extends Item {
     /// Номер выпуска журнала
