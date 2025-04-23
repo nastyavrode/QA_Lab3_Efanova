@@ -1,0 +1,88 @@
+\doxysection{Класс org.\+example.\+Item}
+\hypertarget{classorg_1_1example_1_1_item}{}\label{classorg_1_1example_1_1_item}\index{org.example.Item@{org.example.Item}}
+
+
+Абстрактный базовый класс, представляющий элемент библиотеки.  
+
+
+
+
+Граф наследования\+:org.\+example.\+Item\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{classorg_1_1example_1_1_item__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1example_1_1_item_a986116415ba57203ed11cc0d3c9ca338}{Item}} (String \mbox{\hyperlink{classorg_1_1example_1_1_item_a785d17264928055536cbd063240a3e8c}{title}}, String \mbox{\hyperlink{classorg_1_1example_1_1_item_a0fb0ac9c802cf7cfb7f626e6614eb388}{author}}, int \mbox{\hyperlink{classorg_1_1example_1_1_item_a5fc3ace9f41f0ee7623353f3181a0931}{year}})
+\begin{DoxyCompactList}\small\item\em Конструктор базового элемента. \end{DoxyCompactList}\item 
+abstract String \mbox{\hyperlink{classorg_1_1example_1_1_item_a6560e52c1888d70f96dc7aefee7c15cf}{get\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Абстрактный метод получения информации об элементе. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classorg_1_1example_1_1_item_a785d17264928055536cbd063240a3e8c}\label{classorg_1_1example_1_1_item_a785d17264928055536cbd063240a3e8c} 
+String {\bfseries title}
+\begin{DoxyCompactList}\small\item\em Название элемента \end{DoxyCompactList}\item 
+\Hypertarget{classorg_1_1example_1_1_item_a0fb0ac9c802cf7cfb7f626e6614eb388}\label{classorg_1_1example_1_1_item_a0fb0ac9c802cf7cfb7f626e6614eb388} 
+String {\bfseries author}
+\begin{DoxyCompactList}\small\item\em Автор или редакция \end{DoxyCompactList}\item 
+\Hypertarget{classorg_1_1example_1_1_item_a5fc3ace9f41f0ee7623353f3181a0931}\label{classorg_1_1example_1_1_item_a5fc3ace9f41f0ee7623353f3181a0931} 
+int {\bfseries year}
+\begin{DoxyCompactList}\small\item\em Год публикации \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный базовый класс, представляющий элемент библиотеки. 
+
+Класс содержит общие поля, такие как название, автор и год публикации. Используется как основа для производных классов \doxylink{classorg_1_1example_1_1_book}{Book} и \doxylink{classorg_1_1example_1_1_magazine}{Magazine}. 
+
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{classorg_1_1example_1_1_item_a986116415ba57203ed11cc0d3c9ca338}\index{org.example.Item@{org.example.Item}!Item@{Item}}
+\index{Item@{Item}!org.example.Item@{org.example.Item}}
+\doxysubsubsection{\texorpdfstring{Item()}{Item()}}
+{\footnotesize\ttfamily \label{classorg_1_1example_1_1_item_a986116415ba57203ed11cc0d3c9ca338} 
+org.\+example.\+Item.\+Item (\begin{DoxyParamCaption}\item[{String}]{title}{, }\item[{String}]{author}{, }\item[{int}]{year}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор базового элемента. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em title} & Название элемента. \\
+\hline
+{\em author} & Автор элемента. \\
+\hline
+{\em year} & Год публикации. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\Hypertarget{classorg_1_1example_1_1_item_a6560e52c1888d70f96dc7aefee7c15cf}\index{org.example.Item@{org.example.Item}!getInfo@{getInfo}}
+\index{getInfo@{getInfo}!org.example.Item@{org.example.Item}}
+\doxysubsubsection{\texorpdfstring{getInfo()}{getInfo()}}
+{\footnotesize\ttfamily \label{classorg_1_1example_1_1_item_a6560e52c1888d70f96dc7aefee7c15cf} 
+abstract String org.\+example.\+Item.\+get\+Info (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Абстрактный метод получения информации об элементе. 
+
+\begin{DoxyReturn}{Возвращает}
+Строка с информацией об элементе. 
+\end{DoxyReturn}
+
+
+Переопределяется в \mbox{\hyperlink{classorg_1_1example_1_1_book_a79bc2c86febcb3900b438ea4ba8ef233}{org.\+example.\+Book}} и \mbox{\hyperlink{classorg_1_1example_1_1_magazine_a2df4021b4978cef8ef27baaa70d91a20}{org.\+example.\+Magazine}}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Item.\+java\end{DoxyCompactItemize}
