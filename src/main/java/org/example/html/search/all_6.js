@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['showitems_0',['showItems',['../classorg_1_1example_1_1_library.html#a23266a0e525a925b161b9554e2761504',1,'org::example::Library']]]
+  ['magazine_0',['Magazine',['../classorg_1_1example_1_1_magazine.html',1,'org.example.Magazine'],['../classorg_1_1example_1_1_magazine.html#acfb547ef7ea5979d02cee12f2eba59cd',1,'org.example.Magazine.Magazine()']]],
+  ['main_1',['Main',['../classorg_1_1example_1_1_main.html',1,'org::example']]],
+  ['main_2',['main',['../classorg_1_1example_1_1_main.html#a2502b56648fda310b83e3421ef8d466b',1,'org::example::Main']]]
 ];
