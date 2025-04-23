@@ -37,4 +37,24 @@ public class Library {
             System.out.println(item.getInfo());
         }
     }
+
+    /**
+     * @brief Вычисляет средний год публикации всех элементов библиотеки.
+     *
+     * \f[
+     * \text{Средний год} = \frac{\sum_{i=1}^{n} \text{year}_i}{n}
+     * \f]
+     *
+     * @return Средний год публикации или 0, если библиотека пуста.
+     */
+    public double calculateAverageYear() {
+        if (items.isEmpty()) return 0;
+
+        int sum = 0;
+        for (Item item : items) {
+            sum += item.year;
+        }
+
+        return (double) sum / items.size();
+    }
 }

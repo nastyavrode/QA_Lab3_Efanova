@@ -22,5 +22,8 @@ public class Main {
         library.addItem(magazine1);
 
         library.showItems();
+
+        double avgYear = library.calculateAverageYear();
+        System.out.printf("Average Publication Year: %.2f\n", avgYear);
     }
 }
